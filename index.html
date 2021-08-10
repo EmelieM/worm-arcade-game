@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="worm.css"/>
+    <script defer src="worm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Worm</title>
+</head>
+<body>
+
+    <div class="score">
+        <div class="scoreFood">Apples: <span id="pointsEarned"></span></div>
+        <div class="scoreBoard">Segments: <span id="blocksAdded"></span></div>
+        <div class="lastScore">Your last score: <span id="lastSnakeScore"></span></div>
+    </div>
+
+    <div class="game">
+    <button class="startButton"><b>START</b></button>
+    <button id="restartButton" class="hidden"><b>RESTART</b></button>
+
+    <h2 id="hitWall" class="hidden">You crashed!</h2>
+    
+    <h2 id="bitSelf" class="hidden">You bit yourself!</h2>
+
+    <section class="gameBoard">
+    </section>
+    </div>
+
+
+
+</body>
+</html>
